@@ -897,6 +897,18 @@ input:-ms-input-placeholder {
 
 .gameplay {
     margin-top: 4em;
+    width: 100%;
     border-radius: 10%;
     border: solid #8c8c8a;
+}
+
+@media (pointer:none), (pointer:coarse) {
+    .gameplay {
+        margin-top: 0;
+    }
+    .carousel-caption .btn_bg a {
+       left: 22%;
+    }
+    
+
 }
