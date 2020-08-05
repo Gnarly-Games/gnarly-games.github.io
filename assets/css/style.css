@@ -917,5 +917,10 @@ input:-ms-input-placeholder {
        left: 22%;
     }
     
-
+    .navbar-collapse {
+        background: white;
+    }
+    .navbar-toggle {
+        background: white;
+    }
 }
