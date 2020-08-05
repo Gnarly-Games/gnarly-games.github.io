@@ -563,7 +563,7 @@ input:-ms-input-placeholder {
 
 .carousel-caption {
 	padding-bottom: 30px;
-	top: 90px;
+	top: 30%;
 }
 .carousel-caption p{
 	font-size:50px;
@@ -579,15 +579,18 @@ input:-ms-input-placeholder {
     position: relative;
     display: inline-block;
     height: 15px;
-    padding-top: 385px;
+    padding-top: 220px;
 }
 .carousel-caption .btn_bg a {
     position: absolute;
     left: 33%;
-    top: 136px;
+    top: 50px;
     background: #fad663;
     border: 2px solid #000;
     border-radius: 15px 15px 15px 15px;
+}
+.carousel-caption  h4 {
+     margin-top: 50px;
 }
 
 
