@@ -726,7 +726,9 @@ input:-ms-input-placeholder {
     height: 15px;
     margin-top: 60px;
 }
+
 .btn_bg button{
+     font-weight: 900;
     position: absolute;
     left: 42%;
     top: -50px;
@@ -735,6 +737,7 @@ input:-ms-input-placeholder {
     border-radius: 15px 15px 15px 15px;
 }
 .btn_bg a{
+     font-weight: 900;
     position: absolute;
     left: 42%;
     top: -50px;
@@ -746,9 +749,14 @@ input:-ms-input-placeholder {
 
 .about{
 	overflow:hidden;
+    height: 100vh;
 	padding:80px 0px;
 }
 
+.betaprogram {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
 .single_about{
 	margin-top: 50px;
 }
@@ -775,6 +783,7 @@ input:-ms-input-placeholder {
 
 /* contact section */
 .contact{
+    height: 100vh;
     padding: 80px 0px 20px 0px;
 	background:#d2eae3;
 }
