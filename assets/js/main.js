@@ -7,26 +7,6 @@ jQuery(document).ready(function ($) {
 		$(".loaded").fadeOut();
 		$(".preloader").delay(1000).fadeOut("slow");
 	});
-    /*---------------------------------------------*
-     * Mobile menu
-     ---------------------------------------------*/
-    $('#navbar-collapse').find('a[href*=#]:not([href=#])').click(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            if (target.length) {
-                $('html,body').animate({
-                    scrollTop: (target.offset().top - 40)
-                }, 1000);
-                if ($('.navbar-toggle').css('display') != 'none') {
-                    $(this).parents('.container').find(".navbar-toggle").trigger("click");
-                }
-                return false;
-            }
-        }
-    });
-
-
 
     /*---------------------------------------------*
      * STICKY scroll
@@ -34,7 +14,27 @@ jQuery(document).ready(function ($) {
 
     $.localScroll();
 
+    /*---------------------------------------------*
+     * Mobile menu
+     ---------------------------------------------*/
+     $(function() {
+       $('a[href*="#"]:not([href="#"])').click(function() {
+         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+           var target = $(this.hash);
+           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html, body').stop(true).animate({
+               scrollTop: target.offset().top
+             }, 900);
+             return false;
+           }
+         }
+       });
+     });
 
+     $('html, body').on('mousedown touchstart', function(){
+        $('html, body').stop(true);
+     })
 
     /*---------------------------------------------*
      * Counter 
@@ -95,20 +95,20 @@ jQuery(document).ready(function ($) {
 	});
 	
 
-// main-menu-scroll
-
-	jQuery(window).scroll(function () {
-	  var top = jQuery(document).scrollTop();
-		var height = 300;
-	  //alert(batas);
-	  
-	  if (top > height) {
-		jQuery('.navbar-fixed-top').addClass('menu-scroll');
-	  } else {
-	   jQuery('.navbar-fixed-top').removeClass('menu-scroll');
-	  }
-	});	 
-	
+ $(function() {
+       $('a[href*="#"]:not([href="#"])').click(function() {
+         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+           var target = $(this.hash);
+           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+           if (target.length) {
+             $('html, body').animate({
+               scrollTop: target.offset().top
+             }, 1000);
+             return false;
+           }
+         }
+       });
+     });	
 // scroll Up
 
     $(window).scroll(function(){

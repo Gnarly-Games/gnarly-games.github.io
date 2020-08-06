@@ -912,6 +912,11 @@ input:-ms-input-placeholder {
     border: solid #8c8c8a;
 }
 
+.main_menu_bg .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #867005;
+}
+
+
 @media (pointer:none), (pointer:coarse) {
     .gameplay {
         margin-top: 0;
@@ -926,4 +931,12 @@ input:-ms-input-placeholder {
     .navbar-toggle {
         background: white;
     }
+
+    .nav>li>a>img {
+        margin-left: 1em;
+    }
 }
+
+ @font-face {
+      font-display: swap;
+ }
