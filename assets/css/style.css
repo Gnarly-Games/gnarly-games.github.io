@@ -925,7 +925,11 @@ input:-ms-input-placeholder {
 }
 
 
-@media (pointer:none), (pointer:coarse) {
+
+@media only screen and (max-width: 768px) {
+    .slogan {
+        margin-top: 3em;
+    }
     .gameplay {
         margin-top: 0;
     }
