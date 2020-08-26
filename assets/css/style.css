@@ -639,6 +639,8 @@ input:-ms-input-placeholder {
     font-size: 72px;
     font-family: 'hvd_peace';
     line-height: 78px;
+        font-variant-caps: all-petite-caps;
+
     color: #000;
 }
 
