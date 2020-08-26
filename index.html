@@ -29,13 +29,12 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163254669-2"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'UA-163254669-2');
     </script>
-
 </head>
 
 <body>
@@ -66,11 +65,15 @@
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav">
                                         <li><a style="padding: 0"> <img src="assets/images/logo/gnarlyblack.png" width="50" height="50" alt="Gnarly Game Studio logo" /></a>
-                                        <li><a href="#home">Home</a></li>
-                                        <li><a href="#whatido">Our Game</a></li>
-                                        <li><a href="#betaprogram">Beta Program</a></li>
-                                        <li><a href="#about">About</a></li>
-                                        <li><a href="#contact">Contact</a></li>
+                                        <li><a href="#home" data-translate="home"></a></li>
+                                        <li><a href="#whatido" data-translate="ourgame"></a></li>
+                                        <li><a href="#betaprogram" data-translate="betaprogram"></a></li>
+                                        <li><a href="#about" data-translate="about"></a></li>
+                                        <li><a href="#contact" data-translate="contact"></a></li>
+                                        <li> <div class="select-language navbar-language">
+                                            <button onclick="translate('tr')">TR</button>
+                                            <button  onclick="translate('en')">EN</button>
+                                        </div> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -91,13 +94,13 @@
                             <div class="item active">
                                 <p style="height: 700px"></p>
                                 <div class="carousel-caption">
-                                    <p class="slogan">Things are about to get gnarly!</p>
-                                    <h4>We are crafting an online battle game</h4>
+                                    <p class="slogan" data-translate="slogan"></p>
+                                    <h4 id="subtitle" data-translate="subtitle"></h4>
                                     <form id="formid">
                                         <div class="form-group">
                                             <div class="message_btn text-center">
                                                 <div class="btn_bg">
-                                                    <a class="btn" href="#whatido">SEE MORE</a>
+                                                    <a class="btn" href="#whatido" data-translate="seemore"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -115,7 +118,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="head_title text-center wow fadeInLeft" data-wow-duration="3s">
-                        <h2>Our Game</h2>
+                        <h2 data-translate="ourgame"></h2>
                         <div class="separator"></div>
                     </div>
                 </div>
@@ -125,20 +128,14 @@
                             <center>
                                 <h3>Cetchy</h3>
                             </center>
-                            <p><b>Cetchy</b> is a <b>multiplayer shooter game</b>.
-                            </p>
-                            <p>
-                                It offers a <b>fast-paced battle royale</b> gaming experience with elegant game mechanics.
+                            <p data-translate="game_summary">
                             </p>
                         </div>
                         <br />
                         <div class="row">
                             <div class="col-md-9">
-                                <h4>Engaging</h4>
-                                <p> Cetchy drags you into new adventures with constantly updated battle arenas.
-                                </p>
-                                <p>
-                                    Changes your habits with new characters and costumes.
+                                <h4 data-translate="feature_engaging"></h4>
+                                <p data-translate="feature_engaging_description">
                                 </p>
                             </div>
                             <div class="single_whatido_img col-md-3">
@@ -147,9 +144,8 @@
                         <br />
                         <div class="row">
                             <div class="col-md-9">
-                                <h4>Smooth</h4>
-                                <p> We use the latest technologies while developing Cetchy to give you a smooth gaming experience.</p>
-                                <p> It's game mechanics are also thought out to be easy to adapt but difficult to master. </p>
+                                <h4 data-translate="feature_smooth"></h4>
+                                <p data-translate="feature_smooth_description"></p>
                             </div>
                             <div class="single_whatido_img col-md-3">
                             </div>
@@ -157,11 +153,8 @@
                         <br />
                         <div class="row">
                             <div class="col-md-9">
-                                <h4>Rewarding</h4>
-                                <p>Cetchy is designed to be super fast and fun. </p>
-                                <!-- <p> It's satisfying end-game taste fills you with excitement. </p> -->
-                                <p>
-                                    You will find yourself just about to hit the <b>Play</b> button again after every game.
+                                <h4 data-translate="feature_rewarding"></h4>
+                                <p data-translate="feature_rewarding_description">
                                 </p>
                             </div>
                             <div class="single_whatido_img col-md-3">
@@ -169,18 +162,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="head_title_rigth wow fadeInRight" data-wow-duration="3s">
-                        <!--
-                        <iframe id="ytplayer" type="text/html" width="500" height="360" src="https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=https://example.com" frameborder="0"></iframe>
-                        -->
-                        <video class="gameplay embed-responsive-item" autoplay="autoplay"  preload="none" loop="loop" muted playsinline>
+                <div class="col-md-6 col-sm-12 col-xs-12" style="margin-top: 3em">
+                    <div class="head_title_rigth wow fadeInRight gameplay-container" data-wow-duration="0s">
+                        <video class="gameplay embed-responsive-item" autoplay="autoplay" preload="none" loop="loop" muted playsinline>
                             <source src="assets/videos/gameplay.webm" type="video/webm" />
-                            <source src="assets/videos/gameplay.mp4" type="video/mp4"  />
+                            <source src="assets/videos/gameplay.mp4" type="video/mp4" />
                         </video>
+                        <img class="phone_mockup" src="/assets/images/phone_mockup.png" />
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section><!-- End of Features Section -->
     <section id="betaprogram" class="betaprogram">
@@ -189,25 +181,20 @@
                 <div class="main_whatido_content text-center">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="head_title text-center wow fadeInLeft" data-wow-duration="3s">
-                            <h2>BETA PROGRAM</h2>
+                            <h2 data-translate="betaprogram"></h2>
                             <div class="separator"></div>
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 2em">
                         <div class="single_whatido wow fadeInDown" data-wow-duration="1s">
-                            <p>
-                                <p>
-                                    We are in the early stages of developing our first game.
-                                    <br /> <br />
-                                    You can try the beta version and help us by giving feedbacks about the functionality, user experience, gameplay, mechanics, and art direction.
-                                </p>
+                            <p data-translate="betaprogram_summary">
                             </p>
                             <p>
                                 <form id="formid">
                                     <div class="form-group">
                                         <div class="message_btn text-center">
                                             <div class="btn_bg">
-                                                <a class="btn" href="https://discord.gg/Dw9N7TU">Join Beta Program</a>
+                                                <a class="btn" href="https://discord.gg/Dw9N7TU" data-translate="betaprogram_button"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -272,7 +259,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
                     <div class="head_title text-center">
-                        <h2>About Us</h2>
+                        <h2 data-translate="about"></h2>
                         <div class="separator"></div>
                     </div>
                 </div>
@@ -280,9 +267,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12 wow fadeInRight" data-wow-duration="2s">
                     <div class="head_title text-center" style="margin-top: 4em;margin-bottom: 4em;">
-                        <p>Gnarly Game Studio is a game development company based in Istanbul, Turkey.</p>
-                        <p>We are specialized in crafting multiplayer mobile games.</p>
-                        <p>We are currently working on a mobile battle royale game (Cetchy) that can be played with only one hand. </p>
+                        <p data-translate="about_description"></p>
                     </div>
                 </div>
                 <div class="main_about_content text-center">
@@ -292,7 +277,7 @@
                                 <img src="assets/images/team/ft.jpg" alt="Ferhat Tepe Gnarly Game Studio Founder Game Developer" />
                             </div>
                             <h5>Ferhat TEPE</h5>
-                            <p>Game Developer, Co-Founder</p>
+                            <p data-translate="team_role_ferhat"></p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="3s">
@@ -301,7 +286,7 @@
                                 <img src="assets/images/team/mg.jpg" alt="Mehmet Gürdal Gnarly Game Studio Founder Web Developer" />
                             </div>
                             <h5>Mehmet GÜRDAL</h5>
-                            <p>Web Developer, Co-Founder</p>
+                            <p data-translate="team_role_mehmet"></p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
@@ -310,7 +295,7 @@
                                 <img src="assets/images/team/sg.jpg" width="200" height="200" alt="Serkan Gürdal Gnarly Game Studio Founder 2D Artist Designer" />
                             </div>
                             <h5>Serkan GÜRDAL</h5>
-                            <p>Artist</p>
+                            <p data-translate="team_role_serkan"></p>
                         </div>
                     </div>
                 </div>
@@ -323,7 +308,7 @@
                                 <img src="assets/images/team/gs.jpg" alt="Göktürk Şeker Gnarly Game Studio Marketing" />
                             </div>
                             <h5>Göktürk ŞEKER</h5>
-                            <p>Marketing</p>
+                            <p data-translate="team_role_gokturk"></p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="3s">
@@ -332,7 +317,7 @@
                                 <img src="assets/images/team/og.jpg" width="200" height="200" alt="Ömer GELİÇ Gnarly Game Studio 3D Artist Designer" />
                             </div>
                             <h5>Ömer GELİÇ</h5>
-                            <p>Artist</p>
+                            <p data-translate="team_role_omer"></p>
                         </div>
                     </div>
                 </div>
@@ -347,21 +332,21 @@
                         <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="2s">
                             <div class="contact_message">
                                 <form action="https://formspree.io/mzbjopjv" method="POST" id="formid">
-                                    <label for="">Name</label>
+                                    <label for="" data-translate="email_form_name"></label>
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="name" placeholder="name" required="">
                                     </div>
-                                    <label for="">Email</label>
+                                    <label for="" data-translate="email_form_email"></label>
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" placeholder="Email" required="">
                                     </div>
-                                    <label for="">Message</label>
+                                    <label for="" data-translate="email_form_message"></label>
                                     <div class="form-group">
                                         <textarea class="form-control" name="message" rows="8" placeholder="Message"></textarea>
                                     </div>
                                     <div class="message_btn text-center">
                                         <div class="btn_bg">
-                                            <button type="submit" class="btn">Send</button>
+                                            <button type="submit" class="btn" data-translate="email_form_button"></button>
                                         </div>
                                     </div>
                                 </form>
@@ -370,7 +355,7 @@
                         <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="2s">
                             <div class="contact_socail_bookmark_area">
                                 <div class="head_title text-center">
-                                    <h2>GET IN TOUCH</h2>
+                                    <h2 data-translate="get_in_touch"></h2>
                                     <div class="separator"></div>
                                 </div>
                                 <div class="contact_socail_bookmark">
@@ -410,10 +395,10 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="single_copyirgth wow fadeInUp" data-wow-duration="2s">
                             <ul class="navbar-right">
-                                <li class="active"><a href="#home">Home</a></li>
-                                <li><a href="#whatido">Our Game</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li class="active" data-translate="home"><a href="#home"></a></li>
+                                <li><a href="#whatido" data-translate="ourgame"></a></li>
+                                <li><a href="#about" data-translate="about"></a></li>
+                                <li><a href="#contact" data-translate="contact"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -425,6 +410,10 @@
     <div class="scrollup">
         <a href="#"><i class="fa fa-chevron-up"></i></a>
     </div>
+    <div class="select-language language-floating">
+        <button onclick="translate('tr')">TR</button>
+        <button  onclick="translate('en')">EN</button>
+    </div>
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
     <script src="assets/js/vendor/isotope.min.js"></script>
@@ -432,6 +421,7 @@
     <script src="assets/js/jquery.mixitup.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/translate.js"></script>
 </body>
 
 </html>
