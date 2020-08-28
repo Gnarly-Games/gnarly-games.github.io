@@ -28,11 +28,11 @@ var dictionary = {
                 tek elle oynanabilen mobil MOBA; Cetchy'yi geliştiriyor.
             `,
         "contact": "İLETİŞİM",
-        "slogan": "İşler çığrından çıkacak",
+        "slogan": "Mini battleroyale cetchy!",
         "subtitle": "ONLINE BİR SAVAŞ OYUNU TEK ELLE OYNANABİLİR Mİ?",
         "seemore": "DEVAMI",
         "game_summary": `
-            <b>Cetchy</b> tek el ile oynayabileceğin bir <b>multiplayer savaş oyunu</b>.
+            <b>Cetchy</b> tek el ile oynayabileceğin mini bir battleroyale oyunu.
             <br/> <br/>
             Farklı oyun tarzı ile hızlı ve zengin bir oyun deneyimini, sade ve zarif bir oyunanışla sunuyor.
             </p>
@@ -86,7 +86,7 @@ var dictionary = {
                 We are currently working on a mobile battle royale game (Cetchy) that can be played with only one hand. 
             `,
         "contact": "Contact",
-        "slogan": "Things are about to get gnarly!",
+        "slogan": "mini battleroyale Cetchy!",
         "subtitle": "Can an online battle game be played with only one hand?",
         "seemore": "SEE MORE",
         "game_summary": `
