@@ -164,7 +164,7 @@ h1 {
 
 h2 {
     font-size: 65px;
-    line-height: 8rem;
+    line-height: 2.5rem;
     margin-bottom: .9rem;
     font-family: 'carbon';
 }
@@ -623,6 +623,9 @@ input:-ms-input-placeholder {
 }
 
 
+.navbar-default .navbar-nav > li > a {
+    color: #444;
+}
 
 /* Home Section */
 .home {
@@ -637,11 +640,10 @@ input:-ms-input-placeholder {
 }
 
 .slogan {
-    font-size: 72px;
+    font-size: 6rem;
     font-family: 'hvd_peace';
-    line-height: 78px;
+    line-height: 6rem;
     font-variant-caps: all-petite-caps;
-
     color: #000;
 }
 
@@ -1086,7 +1088,9 @@ input:-ms-input-placeholder {
 }
 
 #subtitle {
-    font-size: 32px;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    font-size: 3rem;
 }
 
 .carousel-caption {
@@ -1118,7 +1122,8 @@ input:-ms-input-placeholder {
 
 @media only screen and (max-width: 768px) {
     .slogan {
-        margin-top: 3em;
+        margin-top: 0em;
+        padding-top: 0em;
     }
 
     .phone_mockup {
@@ -1152,7 +1157,9 @@ input:-ms-input-placeholder {
     .language-floating {
         display: none;
     }
-
+    .carousel-caption {
+        top: 0%;
+    }
     .carousel-caption .btn_bg a {
         left: 22%;
     }

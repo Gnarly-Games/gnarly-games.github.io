@@ -5,7 +5,6 @@ jQuery(document).ready(function ($) {
 
 	$(window).load(function () {
 		$(".loaded").fadeOut();
-		$(".preloader").delay(1000).fadeOut("slow");
 	});
 
     /*---------------------------------------------*
@@ -80,20 +79,6 @@ jQuery(document).ready(function ($) {
 
     
 
-	
-	$('.chart').easyPieChart({
-		animate: 2000,
-            scaleColor: false,
-            lineWidth: 10,
-            lineCap: 'square',
-            size: 130,
-            trackColor: false,
-            barColor: '#498af3',
-            onStep: function (from, to, percent) {
-                $(this.el).find('.percent').text(Math.round(percent));
-            }
-	});
-	
 
  $(function() {
        $('a[href*="#"]:not([href="#"])').click(function() {

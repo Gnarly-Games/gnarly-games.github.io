@@ -1,3 +1,5 @@
+
+
 var dictionary = {
     "tr": {
         "home": "Anasayfa",
@@ -87,7 +89,7 @@ var dictionary = {
             `,
         "contact": "Contact",
         "slogan": "mini battleroyale Cetchy!",
-        "subtitle": "Can an online battle game be played with only one hand?",
+        "subtitle": "Is it possible to play an online battle game with just one hand?",
         "seemore": "SEE MORE",
         "game_summary": `
             <b>Cetchy</b> is a <b>multiplayer shooter game</b>.
@@ -116,9 +118,7 @@ var dictionary = {
     }
 };
 
-var browser_lang = navigator.language || navigator.userLanguage;
-var current_lang = browser_lang.split("-")[0];
-   console.log(browser_lang);
+
 function translate(language) {
 
     var language = dictionary.hasOwnProperty(language) ? language : "en";
@@ -129,4 +129,3 @@ function translate(language) {
     });
 }
 
-translate(current_lang);

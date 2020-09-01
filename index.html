@@ -28,6 +28,7 @@
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163254669-2"></script>
+
     <script>
         window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -41,9 +42,7 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div class='preloader'>
-        <div class='loaded'>&nbsp;</div>
-    </div>
+  
     <!--Home page style-->
     <header id="main_menu" class="header">
         <div class="main_menu_bg navbar-fixed-top">
@@ -98,10 +97,10 @@
                                 <h2 id="subtitle" data-translate="subtitle"></h2>
                                 <div class="badges">
                                     <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.GnarlyGameStudio.Cetchy">
-                                        <img class="img-responsive" src="assets/images/store/google_play.png" style="width: 200px;" alt="cetchy google play button" />
+                                        <img class="img-responsive" src="assets/images/store/google_play.png" style="height:5em;" alt="cetchy google play button" />
                                     </a>
                                     <a href="https://testflight.apple.com/join/zrpU7jhM" class="store-badge">
-                                        <img class="img-responsive" src="assets/images/store/app_store.png" style="width: 200px;" alt="cetchy app store button" />
+                                        <img class="img-responsive" src="assets/images/store/app_store.png" style="height:5em;" alt="cetchy app store button" />
                                     </a>
                                 </div>
                             </div>
@@ -415,14 +414,25 @@
         <button onclick="translate('tr')">TR</button>
         <button onclick="translate('en')">EN</button>
     </div>
+
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/vendor/isotope.min.js"></script>
-    <script src="assets/js/jquery.easypiechart.min.js"></script>
-    <script src="assets/js/jquery.mixitup.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
     <script type="text/javascript" src="assets/js/translate.js"></script>
+    <script>
+    // self executing function here
+    (function() {
+       // your page initialization code here
+       // the DOM will be available here
+       var browser_lang = navigator.language || navigator.userLanguage;
+        var current_lang = browser_lang.split("-")[0];
+
+        translate(current_lang);
+       console.log(browser_lang);
+    })();
+    </script>
+    
+    <script async src="assets/js/vendor/bootstrap.min.js"></script>
+    <script  src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
