@@ -640,12 +640,19 @@ input:-ms-input-placeholder {
 }
 
 .slogan {
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: 'hvd_peace';
-    line-height: 6rem;
+    line-height: 5rem;
     font-variant-caps: all-petite-caps;
     color: #000;
 }
+
+#subtitle {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    font-size: 2.2rem;
+}
+
 
 .carousel-caption .btn_bg {
     background: url(../images/separetor3.png) no-repeat center center;
@@ -1085,12 +1092,6 @@ input:-ms-input-placeholder {
     justify-content: center;
     display: flex;
 
-}
-
-#subtitle {
-    margin-top: 0.5em;
-    margin-bottom: 1.5em;
-    font-size: 3rem;
 }
 
 .carousel-caption {
