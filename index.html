@@ -395,7 +395,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="single_copyirgth wow fadeInUp" data-wow-duration="2s">
                             <ul class="navbar-right">
-                                <li class="active" data-translate="home"><a href="#home"></a></li>
+                                <li class="active"><a href="#home" data-translate="home"></a></li>
                                 <li><a href="#whatido" data-translate="ourgame"></a></li>
                                 <li><a href="#about" data-translate="about"></a></li>
                                 <li><a href="#contact" data-translate="contact"></a></li>
@@ -410,23 +410,27 @@
     <div class="scrollup">
         <a href="#"><i class="fa fa-chevron-up"></i></a>
     </div>
+
+    <script type="text/javascript" src="assets/js/translate.js"></script>
     <div class="select-language language-floating">
-        <button onclick="translate('tr')">TR</button>
-        <button onclick="translate('en')">EN</button>
+        <button class="language_button" data-translate="tr">TR</button>
+        <button class="language_button" data-translate="en">EN</button>
     </div>
 
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="assets/js/translate.js"></script>
     <script>
     // self executing function here
     (function() {
        // your page initialization code here
        // the DOM will be available here
-       var browser_lang = navigator.language || navigator.userLanguage;
-        var current_lang = browser_lang.split("-")[0];
+        $(".language_button").on('click', function(event) {
+            var selected_language = $(this).data('translate')
+            translate(selected_language)
+        })
+        var browser_lang = navigator.language || navigator.userLanguage
+        var current_lang = browser_lang.split("-")[0]
 
-        translate(current_lang);
-       console.log(browser_lang);
+        translate(current_lang)
     })();
     </script>
     
