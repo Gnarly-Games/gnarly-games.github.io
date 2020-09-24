@@ -28,7 +28,13 @@
     <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163254669-2"></script>
-
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K9G9PMZ');</script>
+    <!-- End Google Tag Manager -->
     <script>
         window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -42,7 +48,6 @@
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-  
     <!--Home page style-->
     <header id="main_menu" class="header">
         <div class="main_menu_bg navbar-fixed-top">
@@ -389,7 +394,7 @@
                 <div class="footer_copyright">
                     <div class="col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="3s">
                         <div class="single_copyirgth text-left">
-                            <p>Copyright 2020 &copy; by info@gnarlygamestudio.com</p>
+                            <p>Copyright 2020 &copy; by Gnarly Game Studio</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
@@ -410,19 +415,19 @@
     <div class="scrollup">
         <a href="#"><i class="fa fa-chevron-up"></i></a>
     </div>
-
     <script type="text/javascript" src="assets/js/translate.js"></script>
     <div class="select-language language-floating">
         <button class="language_button" data-translate="tr">TR</button>
         <button class="language_button" data-translate="en">EN</button>
     </div>
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K9G9PMZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
     <script>
     // self executing function here
     (function() {
-       // your page initialization code here
-       // the DOM will be available here
+
         $(".language_button").on('click', function(event) {
             var selected_language = $(this).data('translate')
             translate(selected_language)
@@ -433,9 +438,8 @@
         translate(current_lang)
     })();
     </script>
-    
     <script async src="assets/js/vendor/bootstrap.min.js"></script>
-    <script  src="assets/js/plugins.js"></script>
+    <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
