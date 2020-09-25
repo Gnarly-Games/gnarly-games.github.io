@@ -586,6 +586,7 @@ input:-ms-input-placeholder {
 
 .main_menu_bg {
     margin-top: 0px;
+    background: #fad000;
 }
 
 .main_menu_bg .navbar-default {
