@@ -28,16 +28,16 @@
                 Gnarly Game Studio'yu, 5 kişilik bir ekip ile Istanbul/Türkiye'de kurduk.
                 <br/> <br/>
                 Multiplayer online oyun geliştirme konusunda uzman ekibimiz,
-                tek elle oynanabilen mobil MOBA; Cetchy'yi geliştiriyor.
+                sıradışı bir oynanışa sahip bir savaş oyunu olan; Cetchy'yi geliştiriyor.
             `,
             "contact": "İLETİŞİM",
-            "slogan": "Mini battleroyale cetchy!",
-            "subtitle": "ONLINE BİR SAVAŞ OYUNU TEK ELLE OYNANABİLİR Mİ?",
+            "slogan": "Cetchy",
+            "subtitle": "Sıradışı bİr battleroyale oyun deneyimine kendinİzİ hazırlayın!",
             "seemore": "DEVAMI",
             "game_summary": `
             <b>Cetchy</b> tek el ile oynayabileceğin mini bir battleroyale oyunu.
             <br/> <br/>
-            Farklı oyun tarzı ile hızlı ve zengin bir oyun deneyimini, sade ve zarif bir oyunanışla sunuyor.
+            Hızlı ve dolu dolu bir oyun deneyimini, sade ve zarif bir oynanıl ile sunuyor.
             </p>
             `,
             "feature_engaging": "SÜRÜKLEYİCİ",
@@ -48,7 +48,7 @@
             `,
             "feature_smooth": "AKICI",
             "feature_smooth_description": `
-            Pürüssüz bir oyun deneyimi sunmak için; Cetchy'yi geliştirirken en yeni teknolojileri kullandık.
+            Akıcı bir oyun deneyimi sunmak için; Cetchy'yi geliştirirken en yeni teknolojileri kullandık.
                 <br/> <br/>
             Cetchy'nin oyun mekaniklerini kolay öğrenilebilecek fakat ustalaşmaya kabiliyet gerektirecek
             şekilde tasarladık.
@@ -86,11 +86,11 @@
                 <br/>
                 We are specialized in crafting multiplayer mobile games.
                 <br/>
-                We are currently working on a mobile battle royale game (Cetchy) that can be played with only one hand. 
+                We are currently working on a mobile battle royale game (Cetchy) that has a non-trivial combat system. 
             `,
             "contact": "Contact",
-            "slogan": "mini battleroyale Cetchy!",
-            "subtitle": "Is it possible to play an online battle game with just one hand?",
+            "slogan": "Cetchy",
+            "subtitle": "Get ready for an extraordinary battleroyale experience!",
             "seemore": "SEE MORE",
             "game_summary": `
             <b>Cetchy</b> is a <b>multiplayer shooter game</b>.
