@@ -25,19 +25,16 @@
             "email_form_button": "Gönder",
             "get_in_touch": "ULAŞIM KANALLARI",
             "about_description": `
-                Gnarly Game Studio'yu, 5 kişilik bir ekip ile Istanbul/Türkiye'de kurduk.
-                <br/> <br/>
-                Multiplayer online oyun geliştirme konusunda uzman ekibimiz,
-                sıradışı bir oynanışa sahip bir savaş oyunu olan; Cetchy'yi geliştiriyor.
+                Gnarly Game Studio yenilikçi oyun konseptlerini, ölçeklenebilir ağ sistemleri 
+                ile birleştirerek​ multiplayer online oyunlar geliştirmeyi amaçlayan bir girişimdir.
+                <br/>
             `,
             "contact": "İLETİŞİM",
             "slogan": "Cetchy",
             "subtitle": "Sıradışı bİr battleroyale oyun deneyimine kendinİzİ hazırlayın!",
             "seemore": "DEVAMI",
             "game_summary": `
-            <b>Cetchy</b> tek el ile oynayabileceğin mini bir battleroyale oyunu.
-            <br/> <br/>
-            Hızlı ve dolu dolu bir oyun deneyimini, sade ve zarif bir oynanıl ile sunuyor.
+            <b>Cetchy</b> hızlı ve rakabetçi doğasıyla yeni bir battleroyale deneyimi sunmayı amaçlayan multiplayer online savaş oyunudur.
             </p>
             `,
             "feature_engaging": "SÜRÜKLEYİCİ",
@@ -84,7 +81,7 @@
             "about_description": `
                 Gnarly Game Studio is a game development company based in Istanbul, Turkey.
                 <br/>
-                We are specialized in crafting multiplayer mobile games.
+                We aim to develop multiplayer online games by combining innovative game concepts with scalable network systems.
                 <br/>
                 We are currently working on a mobile battle royale game (Cetchy) that has a non-trivial combat system. 
             `,
