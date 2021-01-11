@@ -2,61 +2,6 @@
 
 
     var dictionary = {
-        "tr": {
-            "home": "Anasayfa",
-            "ourgame": "Oyunumuz",
-            "betaprogram": "Beta Programı",
-            "betaprogram_summary": `
-            Henüz ilk oyunumuzun kapalı beta sürecindeyiz.
-            <br /> <br />
-            Oyunumuzu erken aşamada deneyerek; oynanış, kullanıcı deneyimi, oyun mekaniği, ve tasarım hakkında 
-            bize geri bildirimlerde bulunabilirsin. 
-            `,
-            "betaprogram_button": "Beta Programına Katıl",
-            "about": "BİZ KİMİZ",
-            "team_role_ferhat": "Oyun Geliştirici, Kurucu Ortak",
-            "team_role_mehmet": "Web Geliştirici, Kurucu Ortak",
-            "team_role_serkan": "2D Tasarımcı",
-            "team_role_gokturk": "Satış",
-            "team_role_omer": "3D Tasarımcı",
-            "email_form_name": "İsim",
-            "email_form_email": "E-posta",
-            "email_form_message": "Mesaj",
-            "email_form_button": "Gönder",
-            "get_in_touch": "ULAŞIM KANALLARI",
-            "about_description": `
-                Gnarly Game Studio yenilikçi oyun konseptlerini, ölçeklenebilir ağ sistemleri 
-                ile birleştirerek​ multiplayer online oyunlar geliştirmeyi amaçlayan bir girişimdir.
-                <br/>
-            `,
-            "contact": "İLETİŞİM",
-            "slogan": "Cetchy",
-            "subtitle": "Sıradışı bİr battleroyale oyun deneyimine kendinİzİ hazırlayın!",
-            "seemore": "DEVAMI",
-            "game_summary": `
-            <b>Cetchy</b> hızlı ve rakabetçi doğasıyla yeni bir battleroyale deneyimi sunmayı amaçlayan multiplayer online savaş oyunudur.
-            </p>
-            `,
-            "feature_engaging": "SÜRÜKLEYİCİ",
-            "feature_engaging_description": `
-                Cetchy sürekli güncellenen savaş arenaları ile yeni maceralara kapı açıyor.
-                <br/> <br/>
-                Yeni karakterler ve kostümleri ile alışkanlıklarını değiştiriyor.
-            `,
-            "feature_smooth": "AKICI",
-            "feature_smooth_description": `
-            Akıcı bir oyun deneyimi sunmak için; Cetchy'yi geliştirirken en yeni teknolojileri kullandık.
-                <br/> <br/>
-            Cetchy'nin oyun mekaniklerini kolay öğrenilebilecek fakat ustalaşmaya kabiliyet gerektirecek
-            şekilde tasarladık.
-            `,
-            "feature_rewarding": "DOYURUCU",
-            "feature_rewarding_description": `
-                Cetchy çok hızlı ve eğlenceli olacak şekilde tasarlandı.
-                <br/> <br/>
-                Her oyun sonunda, <b>Oyna</b> butonuna tekrar basmak isteyeceksiniz.
-            `
-        },
         "en": {
             "home": "Home",
             "ourgame": "Our Game",
@@ -72,6 +17,7 @@
             "team_role_mehmet": "Web Developer",
             "team_role_serkan": "2D Artist",
             "team_role_omer": "3D Artist",
+            "team_role_hakan": "3D Animator",
             "email_form_name": "Name",
             "email_form_email": "Email",
             "email_form_message": "Message",
@@ -86,7 +32,7 @@
             `,
             "contact": "Contact",
             "slogan": "Cetchy",
-            "subtitle": "Get ready for an extraordinary battleroyale experience!",
+            "subtitle": "Get ready for an extraordinary battle royale experience!",
             "seemore": "SEE MORE",
             "game_summary": `
             <b>Cetchy</b> is a <b>multiplayer shooter game</b>.
@@ -111,7 +57,7 @@
                 Cetchy is designed to be super fast and fun. 
                 <br/><br />
                 You will find yourself just about to hit the <b>Play</b> button again after every game.
-            `
+            `,
         }
     };
 
