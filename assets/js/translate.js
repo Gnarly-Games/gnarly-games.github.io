@@ -18,6 +18,7 @@
             "team_role_serkan": "2D Artist",
             "team_role_omer": "3D Artist",
             "team_role_hakan": "3D Animator",
+            "team_role_ad": "Community Manager",
             "email_form_name": "Name",
             "email_form_email": "Email",
             "email_form_message": "Message",
