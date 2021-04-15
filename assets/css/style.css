@@ -1076,17 +1076,14 @@ input:-ms-input-placeholder {
 .gameplay {
 
     margin-top: 0;
-    height: 730px;
     border-radius: 25px;
-    width: 330px;
-
+    width: 350px;
+    border: 10px solid #e8c203;
 }
 
 .phone_mockup {
     position: absolute;
     height: 84%;
-    width: 345px;
-    top: 8%;
 }
 
 .gameplay-container {
