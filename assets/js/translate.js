@@ -17,6 +17,7 @@
             "team_role_mehmet": "Web Developer",
             "team_role_serkan": "2D Artist",
             "team_role_omer": "3D Artist",
+            "team_role_seyda": "3D Artist",
             "team_role_hakan": "3D Animator",
             "team_role_murat": "Concept Artist",
             "team_role_ad": "Community Manager",
@@ -48,9 +49,9 @@
                 <br/><br />
                 Changes your habits with new characters and costumes.
             `,
-            "feature_smooth": "Smooth",
+            "feature_smooth": "Snappy",
             "feature_smooth_description": `
-                 We use the latest technologies while developing Cetchy to give you a smooth gaming experience.
+                 We use the latest technologies while developing Cetchy to give you a excellent gaming experience.
                 <br/><br />
                 It's game mechanics are also thought out to be easy to adapt but difficult to master.
             `,
