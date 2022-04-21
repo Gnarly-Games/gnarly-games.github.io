@@ -78,8 +78,6 @@ prequel.tv, 513, RESELLER
 pubmatic.com, 160989, RESELLER, 5d62403b186f2ace
 
 #facebook
-facebook.com, 1660809690826728, DIRECT, c3e20eee3f780d68
-facebook.com, 1960574110778345, DIRECT, c3e20eee3f780d68
 facebook.com, 189036899432915, DIRECT, c3e20eee3f780d68
 
 #fyber
