@@ -601,3 +601,5 @@ freewheel.tv, 1173793, RESELLER
 
 #Pangle
 pangleglobal.com, 5000132,DIRECT
+
+facebook.com, 398922001710169, RESELLER, c3e20eee3f780d68
