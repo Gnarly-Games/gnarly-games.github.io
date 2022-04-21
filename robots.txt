@@ -1,1 +1,2 @@
 User-agent: *
+User-agent: facebookexternalhit/1.1 Disallow:
