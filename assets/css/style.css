@@ -529,6 +529,8 @@ Banner Area CSS
 
 .main-banner .banner-image {
   text-align: right;
+  width: 80%;
+  margin: auto;
 }
 
 .main-banner .banner-form {
