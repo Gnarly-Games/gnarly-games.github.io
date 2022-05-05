@@ -1217,7 +1217,16 @@ Screenshot Area CSS
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(21, 21, 21, 0.8);
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+}
+.owl-carousel.owl-drag .owl-item.activeGame .gameShowcase .card-text {
+  margin: 0;
+  padding: 0;
+}
+.owl-carousel.owl-drag .owl-item.activeGame .gameShowcase .card-title {
+  font-size:x-large;
 }
 .gameShowcase img {
   width: 100%;

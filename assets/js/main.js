@@ -98,19 +98,19 @@ jQuery(function ($) {
             ],
             responsive: {
 				0: {
-					items: 1
+					items: 1,
 				},
 				576: {
 					items: 1
 				},
 				768: {
-					items: 1
+					items:  1
 				},
 				1024: {
-					items: 4
+					items: 5
 				},
 				1200: {
-					items: 4
+					items: 5
 				}
 			}
 		});
