@@ -2241,7 +2241,7 @@ Contact Area CSS
   width: 40px;
   display: block;
   height: 40px;
-  border: 1px solid #dadada;
+  border: 2px solid #dadada;
   border-radius: 50%;
   color: #fffffe;
   font-size: 15px;
@@ -2263,7 +2263,7 @@ Contact Area CSS
 .contact-info .contact-info-content .social li a:hover {
   color: #ffffff;
   border-color: #ffffff;
-  background-color: #ffffff;
+  border: 3px solid #fbad18;
 }
 
 /*================================================
@@ -3755,7 +3755,8 @@ Footer Area CSS
 }
 
 .single-footer-widget .list li a:hover {
-  color: #2f5bea;
+  color: #ffffff;
+  text-decoration: underline;
   letter-spacing: 1px;
 }
 
