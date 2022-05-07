@@ -15,9 +15,9 @@ You may also consider using a static page server such as `livereload` in order t
 
 
 <p float="left">
-   <img src="assets/img/screenshot/1.png"/>
-   <img src="assets/img/screenshot/2.png"/>
-   <img src="assets/img/screenshot/3.png"/>
-   <img src="assets/img/screenshot/web.png" width=930/>
+   <img src="assets/img/screenshot/1.png" width="30%"/>
+   <img src="assets/img/screenshot/2.png" width="30%"/>
+   <img src="assets/img/screenshot/3.png" width="30%"/>
+   <img src="assets/img/screenshot/web.png" width="90%"/>
 </p>
 
