@@ -87,11 +87,11 @@ jQuery(function ($) {
 		var slider = $('.screenshot-slider').owlCarousel({
 			loop: true,
 			nav: true,
-			dots: false,
+			dots: true,
 			autoplayHoverPause: true,
-			autoplay: false,
+			autoplay: true,
             smartSpeed: 1000,
-            margin: 50,
+            margin: 40,
             navText: [
                 "<i class='flaticon-curve-arrow'></i>",
                 "<i class='flaticon-curve-arrow-1'></i>"
@@ -140,16 +140,18 @@ jQuery(function ($) {
                     */
                     if(isTouchDevice()) {
                         if (index === 0) {
-                            $(this).addClass('activeGame')
                             /*
+                            $(this).addClass('activeGame')
+                            
                             var imageURL = gameImageURLList[gameCard.attr('id')];
                             gameCard.css('backgroundImage', `url(${imageURL})`);
                             */
                         } 
                     } else {
                         if (index === 1) {
-                            $(this).addClass('activeGame')
                             /*
+                            $(this).addClass('activeGame')
+                            
                             var imageURL = gameImageURLList[gameCard.attr('id')];
                             gameCard.css('backgroundImage', `url(${imageURL})`);
                             */

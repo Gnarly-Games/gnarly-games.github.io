@@ -1208,26 +1208,7 @@ Screenshot Area CSS
   display: none;
 }
 
-.owl-carousel.owl-drag .owl-item.activeGame .gameShowcase {
-  display: visible;
-}
 
-.owl-carousel.owl-drag .owl-item.activeGame .gameShowcase .card-body {
-  bottom: 0;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  position: absolute;
-  background-color: rgba(21, 21, 21, 0.8);
-  padding-right: 0.2rem;
-  padding-left: 0.2rem;
-}
-.owl-carousel.owl-drag .owl-item.activeGame .gameShowcase .card-text {
-  margin: 0;
-  padding: 0;
-}
-.owl-carousel.owl-drag .owl-item.activeGame .gameShowcase .card-title {
-  font-size:x-large;
-}
 .gameShowcase img {
   width: 100%;
   height: 100%;
@@ -1266,15 +1247,15 @@ Screenshot Area CSS
 }
 
 .screenshot-slider.owl-theme .owl-dots .owl-dot span {
-  width: 20px;
-  height: 20px;
-  background-color: transparent;
+  width: 5px;
+  height: 5px;
+  background-color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 50%;
-  border: 1px solid #2f5bea;
   position: relative;
 }
+
 
 .screenshot-slider.owl-theme .owl-dots .owl-dot span::before {
   content: '';
@@ -1283,7 +1264,7 @@ Screenshot Area CSS
   top: 0;
   right: 0;
   bottom: 0;
-  background-color: #2f5bea;
+  background-color: #fbad18;
   border-radius: 50%;
   margin: 4px;
   opacity: 0;
@@ -1293,7 +1274,10 @@ Screenshot Area CSS
   -webkit-transform: scale(0);
   transform: scale(0);
 }
-
+.screenshot-slider.owl-theme .owl-dots .owl-dot.active span {
+  
+  background-color: #fbad18;
+}
 .screenshot-slider.owl-theme .owl-dots .owl-dot:hover span::before,
 .screenshot-slider.owl-theme .owl-dots .owl-dot.active span::before {
   opacity: 1;
@@ -1766,6 +1750,8 @@ Team Area CSS
   position: relative;
   z-index: 1;
   overflow: hidden;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .single-team {
