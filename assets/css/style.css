@@ -1152,6 +1152,11 @@ Screenshot Area CSS
   .owl-carousel .owl-item img {
     margin: auto;
   }
+
+  .card-img-top {
+    max-width: 200px;
+    height: 200px;
+  }
 }
 
 .screenshot-area {
@@ -1199,6 +1204,8 @@ Screenshot Area CSS
   width: 80%;
   margin: auto;
 }
+
+
 
 .card-img-icon {
   margin: auto;
