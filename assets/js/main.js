@@ -86,7 +86,7 @@ jQuery(function ($) {
 		// Screenshot Slider
 		var slider = $('.screenshot-slider').owlCarousel({
 			loop: true,
-			nav: true,
+			nav: false,
 			dots: true,
 			autoplayHoverPause: true,
 			autoplay: true,
