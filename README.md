@@ -1,6 +1,6 @@
 # Mobile first landing page of Gnarly Game Studio 
 
-https://www.gnarlygamestudio.com
+https://www.gnarlyteam.com
 
 ## Setup
 
