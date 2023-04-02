@@ -107,10 +107,10 @@ jQuery(function ($) {
 					items:  1
 				},
 				1024: {
-					items: 5
+					items: 4
 				},
 				1200: {
-					items: 5
+					items: 4
 				}
 			}
 		});
