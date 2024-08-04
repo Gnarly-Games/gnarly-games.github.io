@@ -416,6 +416,8 @@ Eskimi.com,eas-2020000005,RESELLER
 exchange.admazing.co, AM3, RESELLER
 facebook.com, 154898895507692, DIRECT, c3e20eee3f780d68
 facebook.com, 154898895507692, RESELLER, c3e20eee3f780d68
+facebook.com, 1546419749279298, RESELLER, c3e20eee3f780d68
+facebook.com, 1009207560471780, RESELLER, c3e20eee3f780d68
 flat-ads.com, 6, RESELLER
 flat-ads.com,6,reseller
 freewheel.tv, 1058753, RESELLER
