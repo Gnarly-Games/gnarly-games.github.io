@@ -85,11 +85,11 @@ jQuery(function ($) {
 		
 		// Screenshot Slider
 		var slider = $('.screenshot-slider').owlCarousel({
-			loop: true,
+			loop: false,
 			nav: false,
-			dots: true,
-			autoplayHoverPause: true,
-			autoplay: true,
+			dots: false,
+			autoplayHoverPause: false,
+			autoplay: false,
             smartSpeed: 1000,
             margin: 40,
             navText: [
@@ -107,10 +107,10 @@ jQuery(function ($) {
 					items:  1
 				},
 				1024: {
-					items: 4
+					items: 3
 				},
 				1200: {
-					items: 4
+					items: 3
 				}
 			}
 		});
