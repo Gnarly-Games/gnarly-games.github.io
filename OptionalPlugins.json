@@ -1,6 +1,13 @@
 {
   "pluginTemplates":[
     {
+      "registry": "https://github.com/Gnarly-Games/com.gnarlygamestudio.systemtimer.git",
+      "displayName": "System Timer",
+      "customPackageName": "com.gnarlygamestudio.systemtimer",
+      "source": "Git",
+      "scope": "InHouse"
+    },
+    {
       "registry": "com.kyrylokuzyk.primetween",
       "displayName": "Prime Tween",
       "source": "OpenUPM",
