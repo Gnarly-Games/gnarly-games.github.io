@@ -41,14 +41,14 @@
       "scope": "External"
     },
     {
-      "registry": "https://github.com/Gnarly-Games/com.gnarlygamestudio.savesystem.git",
+      "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.savesystem.git",
       "displayName": "Save System",
       "customPackageName": "com.gnarlygamestudio.savesystem",
       "source": "Git",
       "scope": "InHouse"
     },
     {
-      "registry": "https://github.com/Gnarly-Games/com.gnarlygamestudio.soundsystem.git",
+      "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.soundsystem.git",
       "displayName": "Sound System",
       "customPackageName": "com.gnarlygamestudio.soundsystem",
       "source": "Git",
