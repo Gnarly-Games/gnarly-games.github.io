@@ -1,25 +1,10 @@
 {
   "pluginTemplates": [
     {
-      "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.systemtimer.git",
-      "displayName": "System Timer",
-      "description": "Update based wait utility",
-      "sourceLink": "",
-      "customPackageName": "com.gnarlygamestudio.systemtimer",
-      "source": "Git"
-    },
-    {
-      "registry": "com.kyrylokuzyk.primetween",
-      "displayName": "Prime Tween",
-      "description": "High-performance, allocation-free tween library for Unity. Create animations, delays, and sequences in one line of code.",
-      "sourceLink": "https://github.com/KyryloKuzyk/PrimeTween",
-      "source": "OpenUPM"
-    },
-    {
-      "registry": "com.cysharp.unitask",
-      "displayName": "UniTask",
-      "description": "Provides an efficient allocation free async/await integration for Unity.",
-      "sourceLink": "https://github.com/Cysharp/UniTask",
+      "registry": "com.coffee.git-dependency-resolver",
+      "displayName": "Git Dependency Resolver",
+      "description": "This plugin resolves git url dependencies in the package for Unity Package Manager. You can use a git url as a package dependency!",
+      "sourceLink": "https://github.com/mob-sakai/GitDependencyResolverForUnity",
       "source": "OpenUPM"
     },
     {
@@ -47,6 +32,28 @@
       "source": "Git"
     },
     {
+      "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Tags",
+      "displayName": "Unity Atoms Tags",
+      "description": "A replacement to Unity's tags based on Unity Atoms.",
+      "sourceLink": "https://github.com/Gnarly-Games/unity-atoms?path=/Packages/Tags",
+      "customPackageName": "com.unity-atoms.unity-atoms-tags",
+      "source": "Git"
+    },
+    {
+      "registry": "com.kyrylokuzyk.primetween",
+      "displayName": "Prime Tween",
+      "description": "High-performance, allocation-free tween library for Unity. Create animations, delays, and sequences in one line of code.",
+      "sourceLink": "https://github.com/KyryloKuzyk/PrimeTween",
+      "source": "OpenUPM"
+    },
+    {
+      "registry": "com.cysharp.unitask",
+      "displayName": "UniTask",
+      "description": "Provides an efficient allocation free async/await integration for Unity.",
+      "sourceLink": "https://github.com/Cysharp/UniTask",
+      "source": "OpenUPM"
+    },
+    {
       "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.savesystem.git",
       "displayName": "Save System",
       "description": "A lightweight and easy-to-use data persistence system for Unity, built on top of PlayerPrefs with JSON serialization.",
@@ -60,14 +67,6 @@
       "description": "A lightweight and modular sound management system for Unity that handles music, SFX, and user audio preferences with built-in save support.",
       "sourceLink": "https://github.com/Gnarly-Games/com.gnarlygamestudio.soundsystem",
       "customPackageName": "com.gnarlygamestudio.soundsystem",
-      "source": "Git"
-    },
-    {
-      "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Tags",
-      "displayName": "Unity Atoms Tags",
-      "description": "A replacement to Unity's tags based on Unity Atoms.",
-      "sourceLink": "https://github.com/Gnarly-Games/unity-atoms?path=/Packages/Tags",
-      "customPackageName": "com.unity-atoms.unity-atoms-tags",
       "source": "Git"
     },
     {
@@ -97,6 +96,14 @@
       "description": "Advanced inspector attributes for Unity",
       "sourceLink": "https://github.com/codewriter-packages/Tri-Inspector",
       "customPackageName": "com.codewriter.triinspector",
+      "source": "Git"
+    },
+    {
+      "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.systemtimer.git",
+      "displayName": "System Timer",
+      "description": "Update based wait utility",
+      "sourceLink": "",
+      "customPackageName": "com.gnarlygamestudio.systemtimer",
       "source": "Git"
     }
   ]
