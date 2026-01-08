@@ -1,90 +1,71 @@
 {
-  "pluginTemplates":[
+  "pluginTemplates": [
     {
-      "registry": "https://github.com/Gnarly-Games/com.gnarlygamestudio.systemtimer.git",
+      "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.systemtimer.git",
       "displayName": "System Timer",
       "customPackageName": "com.gnarlygamestudio.systemtimer",
-      "source": "Git",
-      "scope": "InHouse"
+      "source": "Git"
     },
     {
       "registry": "com.kyrylokuzyk.primetween",
       "displayName": "Prime Tween",
-      "source": "OpenUPM",
-      "scope": "External"
+      "source": "OpenUPM"
     },
     {
       "registry": "com.cysharp.unitask",
       "displayName": "UniTask",
-      "source": "OpenUPM",
-      "scope": "External"
+      "source": "OpenUPM"
     },
     {
       "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Core",
       "displayName": "Unity Atoms Core",
       "customPackageName": "com.unity-atoms.unity-atoms-core",
-      "source": "Git",
-      "scope": "External"
+      "source": "Git"
     },
     {
       "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/BaseAtoms",
       "displayName": "Unity Atoms Base",
       "customPackageName": "com.unity-atoms.unity-atoms-base-atoms",
-      "source": "Git",
-      "scope": "External"
+      "source": "Git"
     },
     {
       "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/SceneMgmt",
       "displayName": "Unity Atoms Scene Management",
       "customPackageName": "com.unity-atoms.unity-atoms-scene-mgmt",
-      "source": "Git",
-      "scope": "External"
+      "source": "Git"
     },
     {
       "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.savesystem.git",
       "displayName": "Save System",
       "customPackageName": "com.gnarlygamestudio.savesystem",
-      "source": "Git",
-      "scope": "InHouse"
+      "source": "Git"
     },
     {
       "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.soundsystem.git",
       "displayName": "Sound System",
       "customPackageName": "com.gnarlygamestudio.soundsystem",
-      "source": "Git",
-      "scope": "InHouse"
+      "source": "Git"
     },
     {
       "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Tags",
       "displayName": "Unity Atoms Tags",
       "customPackageName": "com.unity-atoms.unity-atoms-tags",
-      "source": "Git",
-      "scope": "External"
+      "source": "Git"
     },
     {
       "registry": "com.cathei.bakingsheet",
       "displayName": "Baking Sheet",
-      "source": "OpenUPM",
-      "scope": "External"
-    },
-    {
-      "registry": "https://github.com/annulusgames/Alchemy.git?path=/Alchemy/Assets/Alchemy",
-      "displayName": "Alchemy",
-      "customPackageName": "com.annulusgames.alchemy",
-      "source": "Git",
-      "scope": "External"
+      "source": "OpenUPM"
     },
     {
       "registry": "com.coffee.ui-particle",
       "displayName": "UI Particle",
-      "source": "OpenUPM",
-      "scope": "External"
+      "source": "OpenUPM"
     },
     {
       "registry": "com.tayx.graphy",
       "displayName": "Graphy",
-      "source": "OpenUPM",
-      "scope": "External"
+      "source": "OpenUPM"
     }
   ]
 }
