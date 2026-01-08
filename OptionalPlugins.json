@@ -105,6 +105,14 @@
       "sourceLink": "",
       "customPackageName": "com.gnarlygamestudio.systemtimer",
       "source": "Git"
+    },
+    {
+      "registry": "git@github.com:Gnarly-Games/damage-text-system.git",
+      "displayName": "Damage Text System",
+      "description": A high-performance, data-driven damage text system utilizing object pooling and PrimeTween.",
+      "sourceLink": "https://github.com/Gnarly-Games/damage-text-system",
+      "customPackageName": "com.gnarlygamestudio.damagetextsystem",
+      "source": "Git"
     }
   ]
 }
