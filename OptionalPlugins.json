@@ -1,118 +1,126 @@
 {
-  "pluginTemplates": [
-    {
-      "registry": "com.coffee.git-dependency-resolver",
-      "displayName": "Git Dependency Resolver",
-      "description": "This plugin resolves git url dependencies in the package for Unity Package Manager. You can use a git url as a package dependency!",
-      "sourceLink": "https://github.com/mob-sakai/GitDependencyResolverForUnity",
-      "source": "OpenUPM"
-    },
-    {
-      "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Core",
-      "displayName": "Unity Atoms Core",
-      "description": "Tiny modular pieces utilizing the power of Scriptable Objects",
-      "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Core",
-      "customPackageName": "com.unity-atoms.unity-atoms-core",
-      "source": "Git"
-    },
-    {
-      "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/BaseAtoms",
-      "displayName": "Unity Atoms Base",
-      "description": "Base set of Atoms based on Unity Atoms Core.",
-      "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/BaseAtoms",
-      "customPackageName": "com.unity-atoms.unity-atoms-base-atoms",
-      "source": "Git"
-    },
-    {
-      "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/SceneMgmt",
-      "displayName": "Unity Atoms Scene Management",
-      "description": "Unity Atoms to manage your scenes.",
-      "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/SceneMgmt",
-      "customPackageName": "com.unity-atoms.unity-atoms-scene-mgmt",
-      "source": "Git"
-    },
-    {
-      "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Tags",
-      "displayName": "Unity Atoms Tags",
-      "description": "A replacement to Unity's tags based on Unity Atoms.",
-      "sourceLink": "https://github.com/Gnarly-Games/unity-atoms?path=/Packages/Tags",
-      "customPackageName": "com.unity-atoms.unity-atoms-tags",
-      "source": "Git"
-    },
-    {
-      "registry": "com.kyrylokuzyk.primetween",
-      "displayName": "Prime Tween",
-      "description": "High-performance, allocation-free tween library for Unity. Create animations, delays, and sequences in one line of code.",
-      "sourceLink": "https://github.com/KyryloKuzyk/PrimeTween",
-      "source": "OpenUPM"
-    },
-    {
-      "registry": "com.cysharp.unitask",
-      "displayName": "UniTask",
-      "description": "Provides an efficient allocation free async/await integration for Unity.",
-      "sourceLink": "https://github.com/Cysharp/UniTask",
-      "source": "OpenUPM"
-    },
-    {
-      "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.savesystem.git",
-      "displayName": "Save System",
-      "description": "A lightweight and easy-to-use data persistence system for Unity, built on top of PlayerPrefs with JSON serialization.",
-      "sourceLink": "https://github.com/Gnarly-Games/com.gnarlygamestudio.savesystem",
-      "customPackageName": "com.gnarlygamestudio.savesystem",
-      "source": "Git"
-    },
-    {
-      "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.soundsystem.git",
-      "displayName": "Sound System",
-      "description": "A lightweight and modular sound management system for Unity that handles music, SFX, and user audio preferences with built-in save support.",
-      "sourceLink": "https://github.com/Gnarly-Games/com.gnarlygamestudio.soundsystem",
-      "customPackageName": "com.gnarlygamestudio.soundsystem",
-      "source": "Git"
-    },
-    {
-      "registry": "com.cathei.bakingsheet",
-      "displayName": "Baking Sheet",
-      "description": "Easy datasheet management for C# and Unity. Supports Excel, Google Sheet, JSON and CSV format",
-      "sourceLink": "https://github.com/cathei/BakingSheet",
-      "source": "OpenUPM"
-    },
-    {
-      "registry": "com.coffee.ui-particle",
-      "displayName": "UI Particle",
-      "description": "This package provides a component to render particle effects for uGUI",
-      "sourceLink": "https://github.com/mob-sakai/ParticleEffectForUGUI",
-      "source": "OpenUPM"
-    },
-    {
-      "registry": "com.tayx.graphy",
-      "displayName": "Graphy",
-      "description": "Graphy is the ultimate, easy to use, feature packed FPS Counter, stats monitor and debugger for your Unity project.",
-      "sourceLink": "https://github.com/Tayx94/graphy",
-      "source": "OpenUPM"
-    },
-    {
-      "registry": "https://github.com/codewriter-packages/Tri-Inspector.git",
-      "displayName": "Tri-Inspector",
-      "description": "Advanced inspector attributes for Unity",
-      "sourceLink": "https://github.com/codewriter-packages/Tri-Inspector",
-      "customPackageName": "com.codewriter.triinspector",
-      "source": "Git"
-    },
-    {
-      "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.systemtimer.git",
-      "displayName": "System Timer",
-      "description": "Update based wait utility",
-      "sourceLink": "",
-      "customPackageName": "com.gnarlygamestudio.systemtimer",
-      "source": "Git"
-    },
-    {
-      "registry": "git@github.com:Gnarly-Games/damage-text-system.git",
-      "displayName": "Damage Text System",
-      "description": "A high-performance, data-driven damage text system utilizing object pooling and PrimeTween.",
-      "sourceLink": "https://github.com/Gnarly-Games/damage-text-system",
-      "customPackageName": "com.gnarlygamestudio.damagetextsystem",
-      "source": "Git"
-    }
-  ]
+    "pluginTemplates": [
+        {
+            "registry": "com.coffee.git-dependency-resolver",
+            "displayName": "Git Dependency Resolver",
+            "description": "This plugin resolves git url dependencies in the package for Unity Package Manager. You can use a git url as a package dependency!",
+            "sourceLink": "https://github.com/mob-sakai/GitDependencyResolverForUnity",
+            "source": "OpenUPM"
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Core",
+            "displayName": "Unity Atoms Core",
+            "description": "Tiny modular pieces utilizing the power of Scriptable Objects",
+            "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Core",
+            "customPackageName": "com.unity-atoms.unity-atoms-core",
+            "source": "Git"
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/BaseAtoms",
+            "displayName": "Unity Atoms Base",
+            "description": "Base set of Atoms based on Unity Atoms Core.",
+            "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/BaseAtoms",
+            "customPackageName": "com.unity-atoms.unity-atoms-base-atoms",
+            "source": "Git"
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/SceneMgmt",
+            "displayName": "Unity Atoms Scene Management",
+            "description": "Unity Atoms to manage your scenes.",
+            "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/SceneMgmt",
+            "customPackageName": "com.unity-atoms.unity-atoms-scene-mgmt",
+            "source": "Git"
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Tags",
+            "displayName": "Unity Atoms Tags",
+            "description": "A replacement to Unity's tags based on Unity Atoms.",
+            "sourceLink": "https://github.com/Gnarly-Games/unity-atoms?path=/Packages/Tags",
+            "customPackageName": "com.unity-atoms.unity-atoms-tags",
+            "source": "Git"
+        },
+        {
+            "registry": "com.kyrylokuzyk.primetween",
+            "displayName": "Prime Tween",
+            "description": "High-performance, allocation-free tween library for Unity. Create animations, delays, and sequences in one line of code.",
+            "sourceLink": "https://github.com/KyryloKuzyk/PrimeTween",
+            "source": "OpenUPM"
+        },
+        {
+            "registry": "com.cysharp.unitask",
+            "displayName": "UniTask",
+            "description": "Provides an efficient allocation free async/await integration for Unity.",
+            "sourceLink": "https://github.com/Cysharp/UniTask",
+            "source": "OpenUPM"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.savesystem.git",
+            "displayName": "Save System",
+            "description": "A lightweight and easy-to-use data persistence system for Unity, built on top of PlayerPrefs with JSON serialization.",
+            "sourceLink": "https://github.com/Gnarly-Games/com.gnarlygamestudio.savesystem",
+            "customPackageName": "com.gnarlygamestudio.savesystem",
+            "source": "Git"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.soundsystem.git",
+            "displayName": "Sound System",
+            "description": "A lightweight and modular sound management system for Unity that handles music, SFX, and user audio preferences with built-in save support.",
+            "sourceLink": "https://github.com/Gnarly-Games/com.gnarlygamestudio.soundsystem",
+            "customPackageName": "com.gnarlygamestudio.soundsystem",
+            "source": "Git"
+        },
+        {
+            "registry": "com.cathei.bakingsheet",
+            "displayName": "Baking Sheet",
+            "description": "Easy datasheet management for C# and Unity. Supports Excel, Google Sheet, JSON and CSV format",
+            "sourceLink": "https://github.com/cathei/BakingSheet",
+            "source": "OpenUPM"
+        },
+        {
+            "registry": "com.coffee.ui-particle",
+            "displayName": "UI Particle",
+            "description": "This package provides a component to render particle effects for uGUI",
+            "sourceLink": "https://github.com/mob-sakai/ParticleEffectForUGUI",
+            "source": "OpenUPM"
+        },
+        {
+            "registry": "com.tayx.graphy",
+            "displayName": "Graphy",
+            "description": "Graphy is the ultimate, easy to use, feature packed FPS Counter, stats monitor and debugger for your Unity project.",
+            "sourceLink": "https://github.com/Tayx94/graphy",
+            "source": "OpenUPM"
+        },
+        {
+            "registry": "https://github.com/codewriter-packages/Tri-Inspector.git",
+            "displayName": "Tri-Inspector",
+            "description": "Advanced inspector attributes for Unity",
+            "sourceLink": "https://github.com/codewriter-packages/Tri-Inspector",
+            "customPackageName": "com.codewriter.triinspector",
+            "source": "Git"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.systemtimer.git",
+            "displayName": "System Timer",
+            "description": "Update based wait utility",
+            "sourceLink": "",
+            "customPackageName": "com.gnarlygamestudio.systemtimer",
+            "source": "Git"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/damage-text-system.git",
+            "displayName": "Damage Text System",
+            "description": "A high-performance, data-driven damage text system utilizing object pooling and PrimeTween.",
+            "sourceLink": "https://github.com/Gnarly-Games/damage-text-system",
+            "customPackageName": "com.gnarlygamestudio.damagetextsystem",
+            "source": "Git"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/auto-scene-loader.git",
+            "displayName": "Auto Scene Loader",
+            "description": "A lightweight Unity Editor toolbar extension that allows selecting a specific start scene for Play Mode and quickly clearing PlayerPrefs.",
+            "sourceLink": "https://github.com/Gnarly-Games/auto-scene-loader",
+            "customPackageName": "com.gnarlygamestudio.autosceneloader",
+            "source": "Git"
+        }
+    ]
 }
