@@ -98,12 +98,11 @@
             "source": "OpenUPM"
         },
         {
-            "registry": "https://github.com/codewriter-packages/Tri-Inspector.git",
-            "displayName": "Tri-Inspector",
-            "description": "Advanced inspector attributes for Unity",
-            "sourceLink": "https://github.com/codewriter-packages/Tri-Inspector",
-            "customPackageName": "com.codewriter.triinspector",
-            "source": "Git"
+            "registry": "com.dbrizov.naughtyattributes",
+            "displayName": "Naughty Attributes",
+            "description": "Attribute Extensions for Unity",
+            "sourceLink": "https://github.com/dbrizov/NaughtyAttributes",
+            "source": "OpenUPM"
         },
         {
             "registry": "git@github.com:Gnarly-Games/system-timer.git",
@@ -153,7 +152,7 @@
             "source": "Git",
             "dependencies": [
                 "com.kyrylokuzyk.primetween",
-                "com.codewriter.triinspector"
+                "com.dbrizov.naughtyattributes"
             ]
         },
         {
