@@ -108,7 +108,7 @@
         {
             "registry": "git@github.com:Gnarly-Games/system-timer.git",
             "displayName": "System Timer",
-            "description": "Update based wait utility",
+            "description": "System Timer is a lightweight Unity package that provides the easiest way to manipulate date and time within the Unity Editor.",
             "sourceLink": "https://github.com/Gnarly-Games/system-timer.git",
             "customPackageName": "com.gnarlygamestudio.systemtimer",
             "source": "Git"
