@@ -58,18 +58,18 @@
             "source": "OpenUPM"
         },
         {
-            "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.savesystem.git",
+            "registry": "git@github.com:Gnarly-Games/save-system.git",
             "displayName": "Save System",
             "description": "A lightweight and easy-to-use data persistence system for Unity, built on top of PlayerPrefs with JSON serialization.",
-            "sourceLink": "https://github.com/Gnarly-Games/com.gnarlygamestudio.savesystem",
+            "sourceLink": "https://github.com/Gnarly-Games/save-system.git",
             "customPackageName": "com.gnarlygamestudio.savesystem",
             "source": "Git"
         },
         {
-            "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.soundsystem.git",
+            "registry": "git@github.com:Gnarly-Games/sound-system.git",
             "displayName": "Sound System",
             "description": "A lightweight and modular sound management system for Unity that handles music, SFX, and user audio preferences with built-in save support.",
-            "sourceLink": "https://github.com/Gnarly-Games/com.gnarlygamestudio.soundsystem",
+            "sourceLink": "https://github.com/Gnarly-Games/sound-system",
             "customPackageName": "com.gnarlygamestudio.soundsystem",
             "source": "Git",
             "dependencies": [
@@ -106,10 +106,10 @@
             "source": "Git"
         },
         {
-            "registry": "git@github.com:Gnarly-Games/com.gnarlygamestudio.systemtimer.git",
+            "registry": "git@github.com:Gnarly-Games/system-timer.git",
             "displayName": "System Timer",
             "description": "Update based wait utility",
-            "sourceLink": "",
+            "sourceLink": "https://github.com/Gnarly-Games/system-timer.git",
             "customPackageName": "com.gnarlygamestudio.systemtimer",
             "source": "Git"
         },
