@@ -143,6 +143,18 @@
                 "com.gnarlygamestudio.savesystem",
                 "com.unity-atoms.unity-atoms-base-atoms"
             ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/panel-system.git",
+            "displayName": "Panel System",
+            "description": "A robust panel management system for Unity.",
+            "sourceLink": "https://github.com/Gnarly-Games/panel-system",
+            "customPackageName": "com.gnarlygamestudio.panelsystem",
+            "source": "Git",
+            "dependencies": [
+                "com.kyrylokuzyk.primetween",
+                "com.codewriter.triinspector"
+            ]
         }
     ]
 }
