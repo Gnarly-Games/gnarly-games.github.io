@@ -155,6 +155,17 @@
                 "com.kyrylokuzyk.primetween",
                 "com.codewriter.triinspector"
             ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/context-steer.git",
+            "displayName": "Context Steer",
+            "description": "A high-performance, context-based steering solution for Unity, designed to navigate complex environments.",
+            "sourceLink": "https://github.com/Gnarly-Games/context-steer",
+            "customPackageName": "com.gnarlygamestudio.contextsteer",
+            "source": "Git",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
         }
     ]
 }
