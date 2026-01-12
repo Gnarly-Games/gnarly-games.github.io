@@ -175,6 +175,7 @@
             "source": "Git",
             "dependencies": [
                 "com.unity-atoms.unity-atoms-base-atoms",
+                "com.gnarlygamestudio.panelsystem",
                 "com.kyrylokuzyk.primetween"
             ]
         }
