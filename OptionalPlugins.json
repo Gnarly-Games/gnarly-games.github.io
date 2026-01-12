@@ -165,6 +165,18 @@
             "dependencies": [
                 "com.unity-atoms.unity-atoms-base-atoms"
             ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/navigation-bar.git",
+            "displayName": "Navigation Bar",
+            "description": "A robust navigation bar system for Unity.",
+            "sourceLink": "https://github.com/Gnarly-Games/navigation-bar",
+            "customPackageName": "com.gnarlygamestudio.navigationbar",
+            "source": "Git",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms",
+                "com.kyrylokuzyk.primetween"
+            ]
         }
     ]
 }
