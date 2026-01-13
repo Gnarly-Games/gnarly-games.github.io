@@ -176,7 +176,7 @@
                 "com.kyrylokuzyk.primetween"
             ]
         },
-	{
+        {
             "registry": "git@github.com:Gnarly-Games/stat-comparison-system.git",
             "displayName": "Stat Comparison System",
             "description": "A game-agnostic, event-driven UI system for comparing item stats side-by-side.",
@@ -185,6 +185,18 @@
             "source": "Git",
             "dependencies": [
                 "com.unity-atoms.unity-atoms-base-atoms"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/parallax-system.git",
+            "displayName": "Parallax System",
+            "description": "Infinite scrolling parallax solution for Unity.",
+            "sourceLink": "https://github.com/Gnarly-Games/parallax-system.git",
+            "customPackageName": "com.gnarlygamestudio.parallaxsystem",
+            "source": "Git",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms",
+                "com.dbrizov.naughtyattributes"
             ]
         }
     ]
