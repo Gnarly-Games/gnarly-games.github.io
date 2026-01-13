@@ -175,6 +175,17 @@
                 "com.gnarlygamestudio.panelsystem",
                 "com.kyrylokuzyk.primetween"
             ]
+        },
+	{
+            "registry": "git@github.com:Gnarly-Games/stat-comparison-system.git",
+            "displayName": "Stat Comparison System",
+            "description": "A game-agnostic, event-driven UI system for comparing item stats side-by-side.",
+            "sourceLink": "https://github.com/Gnarly-Games/stat-comparison-system.git",
+            "customPackageName": "com.gnarlygamestudio.statcomparisonsystem",
+            "source": "Git",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
         }
     ]
 }
