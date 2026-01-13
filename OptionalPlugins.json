@@ -118,10 +118,7 @@
             "description": "A high-performance, data-driven damage text system utilizing object pooling and PrimeTween.",
             "sourceLink": "https://github.com/Gnarly-Games/damage-text-system",
             "customPackageName": "com.gnarlygamestudio.damagetextsystem",
-            "source": "Git",
-            "dependencies": [
-                "com.kyrylokuzyk.primetween"
-            ]
+            "source": "Git"
         },
         {
             "registry": "git@github.com:Gnarly-Games/auto-scene-loader.git",
