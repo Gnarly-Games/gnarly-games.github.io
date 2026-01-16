@@ -198,6 +198,14 @@
                 "com.unity-atoms.unity-atoms-base-atoms",
                 "com.dbrizov.naughtyattributes"
             ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/upgrade-tracking-system.git",
+            "displayName": "Upgrade System",
+            "description": "A reusable upgrade tracking system.",
+            "sourceLink": "https://github.com/Gnarly-Games/upgrade-tracking-system.git",
+            "customPackageName": "com.gnarlygamestudio.upgradesystem",
+            "source": "Git"
         }
     ]
 }
