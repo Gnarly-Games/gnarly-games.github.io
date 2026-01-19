@@ -206,6 +206,14 @@
             "sourceLink": "https://github.com/Gnarly-Games/upgrade-tracking-system.git",
             "customPackageName": "com.gnarlygamestudio.upgradesystem",
             "source": "Git"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/system-timer.git",
+            "displayName": "System Timer",
+            "description": "Custom system timer.",
+            "sourceLink": "https://github.com/Gnarly-Games/system-timer.git",
+            "customPackageName": "com.gnarlygamestudio.systemtimer",
+            "source": "Git"
         }
     ]
 }
