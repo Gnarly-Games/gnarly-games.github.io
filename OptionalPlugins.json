@@ -210,7 +210,7 @@
         {
             "registry": "git@github.com:Gnarly-Games/system-timer.git",
             "displayName": "System Timer",
-            "description": "Custom system timer.",
+            "description": "This is easiest way to change date time on unity editor.",
             "sourceLink": "https://github.com/Gnarly-Games/system-timer.git",
             "customPackageName": "com.gnarlygamestudio.systemtimer",
             "source": "Git"
