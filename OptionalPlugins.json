@@ -84,11 +84,11 @@
             "source": "OpenUPM"
         },
         {
-            "registry": "com.coffee.ui-particle",
+            "registry": "https://github.com/mob-sakai/ParticleEffectForUGUI.git",
             "displayName": "UI Particle",
             "description": "This package provides a component to render particle effects for uGUI",
             "sourceLink": "https://github.com/mob-sakai/ParticleEffectForUGUI",
-            "source": "OpenUPM"
+            "source": "Git"
         },
         {
             "registry": "com.tayx.graphy",
