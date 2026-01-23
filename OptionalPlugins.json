@@ -88,6 +88,7 @@
             "displayName": "UI Particle",
             "description": "This package provides a component to render particle effects for uGUI",
             "sourceLink": "https://github.com/mob-sakai/ParticleEffectForUGUI",
+	        "customPackageName": "com.coffee.ui-particle",
             "source": "Git"
         },
         {
