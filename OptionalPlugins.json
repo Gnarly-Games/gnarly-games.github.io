@@ -207,6 +207,14 @@
             "sourceLink": "https://github.com/Gnarly-Games/upgrade-tracking-system.git",
             "customPackageName": "com.gnarlygamestudio.upgradesystem",
             "source": "Git"
+        },
+		{
+            "registry": "git@github.com:yasirkula/UnityIngameDebugConsole.git",
+            "displayName": "In Game Debug Console",
+            "description": "A uGUI based console to see debug messages and execute commands during gameplay in Unity",
+            "sourceLink": "https://github.com/yasirkula/UnityIngameDebugConsole",
+            "customPackageName": "com.yasirkula.ingamedebugconsole",
+            "source": "Git"
         }
     ]
 }
