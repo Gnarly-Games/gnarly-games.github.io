@@ -82,7 +82,7 @@
             "displayName": "UI Particle",
             "description": "This package provides a component to render particle effects for uGUI",
             "sourceLink": "https://github.com/Gnarly-Games/ParticleEffectForUGUI",
-	        "customPackageName": "com.coffee.ui-particle"
+            "customPackageName": "com.coffee.ui-particle"
         },
         {
             "registry": "https://github.com/Gnarly-Games/graphy.git",
@@ -191,12 +191,19 @@
             "sourceLink": "https://github.com/Gnarly-Games/upgrade-tracking-system.git",
             "customPackageName": "com.gnarlygamestudio.upgradesystem"
         },
-		{
+        {
             "registry": "git@github.com:Gnarly-Games/UnityIngameDebugConsole.git",
             "displayName": "In Game Debug Console",
             "description": "A uGUI based console to see debug messages and execute commands during gameplay in Unity",
             "sourceLink": "https://github.com/Gnarly-Games/UnityIngameDebugConsole",
             "customPackageName": "com.yasirkula.ingamedebugconsole"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/mono-timer.git",
+            "displayName": "Mono Timer",
+            "description": "A persistent, reactive timer system for Unity built on Unity Atoms.",
+            "sourceLink": "https://github.com/Gnarly-Games/mono-timer",
+            "customPackageName": "com.gnarlygamestudio.monotimer"
         }
     ]
 }
