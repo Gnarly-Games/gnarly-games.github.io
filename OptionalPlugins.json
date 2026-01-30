@@ -110,7 +110,11 @@
             "displayName": "Damage Text System",
             "description": "A high-performance, data-driven damage text system utilizing object pooling and PrimeTween.",
             "sourceLink": "https://github.com/Gnarly-Games/damage-text-system",
-            "customPackageName": "com.gnarlygamestudio.damagetextsystem"
+            "customPackageName": "com.gnarlygamestudio.damagetextsystem",
+            "dependencies": [
+                "com.kyrylokuzyk.primetween",
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
         },
         {
             "registry": "git@github.com:Gnarly-Games/auto-scene-loader.git",
@@ -203,7 +207,12 @@
             "displayName": "Mono Timer",
             "description": "A persistent, reactive timer system for Unity built on Unity Atoms.",
             "sourceLink": "https://github.com/Gnarly-Games/mono-timer",
-            "customPackageName": "com.gnarlygamestudio.monotimer"
+            "customPackageName": "com.gnarlygamestudio.monotimer",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms",
+                "com.dbrizov.naughtyattributes",
+                "com.gnarlygamestudio.systemtimer"
+            ]
         }
     ]
 }
