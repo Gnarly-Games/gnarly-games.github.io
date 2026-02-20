@@ -1,0 +1,218 @@
+{
+    "pluginTemplates": [
+        {
+            "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Core",
+            "displayName": "Unity Atoms Core",
+            "description": "Tiny modular pieces utilizing the power of Scriptable Objects",
+            "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Core",
+            "customPackageName": "com.unity-atoms.unity-atoms-core"
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/BaseAtoms",
+            "displayName": "Unity Atoms Base",
+            "description": "Base set of Atoms based on Unity Atoms Core.",
+            "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/BaseAtoms",
+            "customPackageName": "com.unity-atoms.unity-atoms-base-atoms",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-core"
+            ]
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/SceneMgmt",
+            "displayName": "Unity Atoms Scene Management",
+            "description": "Unity Atoms to manage your scenes.",
+            "sourceLink": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/SceneMgmt",
+            "customPackageName": "com.unity-atoms.unity-atoms-scene-mgmt",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-core",
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/unity-atoms.git?path=/Packages/Tags",
+            "displayName": "Unity Atoms Tags",
+            "description": "A replacement to Unity's tags based on Unity Atoms.",
+            "sourceLink": "https://github.com/Gnarly-Games/unity-atoms?path=/Packages/Tags",
+            "customPackageName": "com.unity-atoms.unity-atoms-tags",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-core",
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/PrimeTween.git",
+            "customPackageName": "com.kyrylokuzyk.primetween",
+            "displayName": "Prime Tween",
+            "description": "High-performance, allocation-free tween library for Unity. Create animations, delays, and sequences in one line of code.",
+            "sourceLink": "https://github.com/Gnarly-Games/PrimeTween"
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+            "customPackageName": "com.cysharp.unitask",
+            "displayName": "UniTask",
+            "description": "Provides an efficient allocation free async/await integration for Unity.",
+            "sourceLink": "https://github.com/Gnarly-Games/UniTask"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/save-system.git",
+            "displayName": "Save System",
+            "description": "A lightweight and easy-to-use data persistence system for Unity, built on top of PlayerPrefs with JSON serialization.",
+            "sourceLink": "https://github.com/Gnarly-Games/save-system.git",
+            "customPackageName": "com.gnarlygamestudio.savesystem"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/sound-system.git",
+            "displayName": "Sound System",
+            "description": "A lightweight and modular sound management system for Unity that handles music, SFX, and user audio preferences with built-in save support.",
+            "sourceLink": "https://github.com/Gnarly-Games/sound-system",
+            "customPackageName": "com.gnarlygamestudio.soundsystem",
+            "dependencies": [
+                "com.gnarlygamestudio.savesystem"
+            ]
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/BakingSheet.git?path=UnityProject/Packages/com.cathei.bakingsheet",
+            "displayName": "Baking Sheet",
+            "description": "Easy datasheet management for C# and Unity. Supports Excel, Google Sheet, JSON and CSV format",
+            "customPackageName": "com.cathei.bakingsheet",
+            "sourceLink": "https://github.com/Gnarly-Games/BakingSheet"
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/ParticleEffectForUGUI.git",
+            "displayName": "UI Particle",
+            "description": "This package provides a component to render particle effects for uGUI",
+            "sourceLink": "https://github.com/Gnarly-Games/ParticleEffectForUGUI",
+            "customPackageName": "com.coffee.ui-particle"
+        },
+        {
+            "registry": "https://github.com/Gnarly-Games/graphy.git",
+            "customPackageName": "com.tayx.graphy",
+            "displayName": "Graphy",
+            "description": "Graphy is the ultimate, easy to use, feature packed FPS Counter, stats monitor and debugger for your Unity project.",
+            "sourceLink": "https://github.com/Gnarly-Games/graphy"
+        },
+        {
+            "customPackageName": "com.dbrizov.naughtyattributes",
+            "registry": "git@github.com:Gnarly-Games/NaughtyAttributes.git",
+            "displayName": "Naughty Attributes",
+            "description": "Attribute Extensions for Unity",
+            "sourceLink": "https://github.com/Gnarly-Games/NaughtyAttributes"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/system-timer.git",
+            "displayName": "System Timer",
+            "description": "System Timer is a lightweight Unity package that provides the easiest way to manipulate date and time within the Unity Editor.",
+            "sourceLink": "https://github.com/Gnarly-Games/system-timer.git",
+            "customPackageName": "com.gnarlygamestudio.systemtimer"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/damage-text-system.git",
+            "displayName": "Damage Text System",
+            "description": "A high-performance, data-driven damage text system utilizing object pooling and PrimeTween.",
+            "sourceLink": "https://github.com/Gnarly-Games/damage-text-system",
+            "customPackageName": "com.gnarlygamestudio.damagetextsystem",
+            "dependencies": [
+                "com.kyrylokuzyk.primetween",
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/auto-scene-loader.git",
+            "displayName": "Auto Scene Loader",
+            "description": "A lightweight Unity Editor toolbar extension that allows selecting a specific start scene for Play Mode and quickly clearing PlayerPrefs.",
+            "sourceLink": "https://github.com/Gnarly-Games/auto-scene-loader",
+            "customPackageName": "com.gnarlygamestudio.autosceneloader"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/currency-system.git",
+            "displayName": "Currency System",
+            "description": "A robust, data-driven currency management system built on Unity Atoms, featuring automatic persistence and clean architecture.",
+            "sourceLink": "https://github.com/Gnarly-Games/currency-system",
+            "customPackageName": "com.gnarlygamestudio.currencysystem",
+            "dependencies": [
+                "com.gnarlygamestudio.savesystem",
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/panel-system.git",
+            "displayName": "Panel System",
+            "description": "A robust panel management system for Unity.",
+            "sourceLink": "https://github.com/Gnarly-Games/panel-system",
+            "customPackageName": "com.gnarlygamestudio.panelsystem",
+            "dependencies": [
+                "com.kyrylokuzyk.primetween",
+                "com.dbrizov.naughtyattributes"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/context-steer.git",
+            "displayName": "Context Steer",
+            "description": "A high-performance, context-based steering solution for Unity, designed to navigate complex environments.",
+            "sourceLink": "https://github.com/Gnarly-Games/context-steer",
+            "customPackageName": "com.gnarlygamestudio.contextsteer",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/navigation-bar.git",
+            "displayName": "Navigation Bar",
+            "description": "A robust navigation bar system for Unity.",
+            "sourceLink": "https://github.com/Gnarly-Games/navigation-bar",
+            "customPackageName": "com.gnarlygamestudio.navigationbar",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms",
+                "com.gnarlygamestudio.panelsystem",
+                "com.kyrylokuzyk.primetween"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/stat-comparison-system.git",
+            "displayName": "Stat Comparison System",
+            "description": "A lightweight library for comparing numeric stats.",
+            "sourceLink": "https://github.com/Gnarly-Games/stat-comparison-system.git",
+            "customPackageName": "com.gnarlygamestudio.statcomparisonsystem",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/parallax-system.git",
+            "displayName": "Parallax System",
+            "description": "Infinite scrolling parallax solution for Unity.",
+            "sourceLink": "https://github.com/Gnarly-Games/parallax-system.git",
+            "customPackageName": "com.gnarlygamestudio.parallaxsystem",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms",
+                "com.dbrizov.naughtyattributes"
+            ]
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/upgrade-tracking-system.git",
+            "displayName": "Upgrade System",
+            "description": "A reusable upgrade tracking system.",
+            "sourceLink": "https://github.com/Gnarly-Games/upgrade-tracking-system.git",
+            "customPackageName": "com.gnarlygamestudio.upgradesystem"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/UnityIngameDebugConsole.git",
+            "displayName": "In Game Debug Console",
+            "description": "A uGUI based console to see debug messages and execute commands during gameplay in Unity",
+            "sourceLink": "https://github.com/Gnarly-Games/UnityIngameDebugConsole",
+            "customPackageName": "com.yasirkula.ingamedebugconsole"
+        },
+        {
+            "registry": "git@github.com:Gnarly-Games/mono-timer.git",
+            "displayName": "Mono Timer",
+            "description": "A persistent, reactive timer system for Unity built on Unity Atoms.",
+            "sourceLink": "https://github.com/Gnarly-Games/mono-timer",
+            "customPackageName": "com.gnarlygamestudio.monotimer",
+            "dependencies": [
+                "com.unity-atoms.unity-atoms-base-atoms",
+                "com.dbrizov.naughtyattributes",
+                "com.gnarlygamestudio.systemtimer"
+            ]
+        }
+    ]
+}
