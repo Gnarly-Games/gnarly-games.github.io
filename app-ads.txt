@@ -2486,3 +2486,4 @@ rubiconproject.com, 24752, RESELLER, 0bfd66d529a55807
 appnexus.com, 14423, RESELLER, f5ab79cb980f11d1
 iqzone.com,IQ163,RESELLER
 inmobi.com,59c7922793a3477b9419f0854d1da7e9,RESELLER,83e75a7ae333ca9d
+google.com, pub-2814845919519194, DIRECT, f08c47fec0942fa0
