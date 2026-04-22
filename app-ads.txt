@@ -1,3 +1,38 @@
+applovin.com, 0eb8598a5794377dd0ca3843999c1f38, DIRECT
+adyoulike.com, 2d578cf695c89ec2ba707280319d2020, RESELLER
+bidease.com, bidease_seller_26, RESELLER
+contextweb.com , 562615, RESELLER, 89ff185a4c4e857c
+gamaigroup.com, 423056, RESELLER
+improvedigital.com, 2602, RESELLER
+indexexchange.com, 211341, RESELLER, 50b1c356f2c5c8fc
+loopme.com, 11303, RESELLER, 6c8d5f95897a5a3b
+loopme.com, 11424, RESELLER, 6c8d5f95897a5a3b
+media.net, 8CU12AQ1Y, RESELLER
+media.net, 8CUD06Z68, RESELLER
+openx.com, 540785403, RESELLER, 6a698e2ec38604c6
+openx.com, 559798512, RESELLER, 6a698e2ec38604c6
+opera.com, pub6538436382208, RESELLER, 55a0c5fd61378de3
+pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
+pubmatic.com, 158862, RESELLER, 5d62403b186f2ace
+pubmatic.com, 159509, RESELLER, 5d62403b186f2ace
+pubmatic.com, 160974, RESELLER, 5d62403b186f2ace
+pubmatic.com, 164532, RESELLER, 5d62403b186f2ace
+pubnative.net, 1007501, RESELLER, d641df8625486a7b
+risecodes.com, 64e346c45ab8e700016b45cd, RESELLER
+rubiconproject.com, 16356, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20050, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 23876, RESELLER, 0bfd66d529a55807
+sharethrough.com, bXzzb1bR, RESELLER, d53b998a7bd4ecd2
+sharethrough.com, NNB0Zl76, RESELLER, d53b998a7bd4ecd2
+sharethrough.com, UbYLkrys, RESELLER, d53b998a7bd4ecd2
+smartadserver.com, 3817, RESELLER
+video.unrulymedia.com, 169764768, RESELLER
+video.unrulymedia.com, 322585001, RESELLER
+xandr.com, 13799, RESELLER
+xandr.com, 14082, RESELLER
+yieldmo.com, 3591550211052216798, RESELLER, 6a92c77cfc3d2258
+zmaticoo.com, 5135655, RESELLER
 33across.com, 0013300001kQj2HAAS, RESELLER, bbea06d9c4d2853c
 a4g.com, 12652, DIRECT
 acd.op.hicloud.com, PUB_HW_1003, RESELLER
@@ -418,6 +453,8 @@ facebook.com, 154898895507692, DIRECT, c3e20eee3f780d68
 facebook.com, 154898895507692, RESELLER, c3e20eee3f780d68
 facebook.com, 1546419749279298, RESELLER, c3e20eee3f780d68
 facebook.com, 1009207560471780, RESELLER, c3e20eee3f780d68
+facebook.com, 115675437013982, RESELLER, c3e20eee3f780d68
+facebook.com, 115675437013982, DIRECT, c3e20eee3f780d68
 flat-ads.com, 6, RESELLER
 flat-ads.com,6,reseller
 freewheel.tv, 1058753, RESELLER
@@ -2486,3 +2523,4 @@ rubiconproject.com, 24752, RESELLER, 0bfd66d529a55807
 appnexus.com, 14423, RESELLER, f5ab79cb980f11d1
 iqzone.com,IQ163,RESELLER
 inmobi.com,59c7922793a3477b9419f0854d1da7e9,RESELLER,83e75a7ae333ca9d
+google.com, pub-2814845919519194, DIRECT, f08c47fec0942fa0
