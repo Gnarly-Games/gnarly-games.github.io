@@ -1,7 +1,8 @@
 applovin.com, 0eb8598a5794377dd0ca3843999c1f38, DIRECT
 adyoulike.com, 2d578cf695c89ec2ba707280319d2020, RESELLER
 bidease.com, bidease_seller_26, RESELLER
-contextweb.com, 562615, RESELLER, 89ff185a4c4e857c
+bigo.sg, qyfoptvec9, RESELLER
+contextweb.com , 562615, RESELLER, 89ff185a4c4e857c
 gamaigroup.com, 423056, RESELLER
 improvedigital.com, 2602, RESELLER
 indexexchange.com, 211341, RESELLER, 50b1c356f2c5c8fc
@@ -27,8 +28,10 @@ sharethrough.com, bXzzb1bR, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, NNB0Zl76, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, UbYLkrys, RESELLER, d53b998a7bd4ecd2
 smartadserver.com, 3817, RESELLER
+taurusx.com, 70119, RESELLER
 video.unrulymedia.com, 169764768, RESELLER
 video.unrulymedia.com, 322585001, RESELLER
+video.unrulymedia.com, 841707281, RESELLER, 98c21ef9a666c68b
 xandr.com, 13799, RESELLER
 xandr.com, 14082, RESELLER
 yieldmo.com, 3591550211052216798, RESELLER, 6a92c77cfc3d2258
